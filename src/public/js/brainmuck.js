@@ -435,7 +435,7 @@ function Core (libraries) {
 
 
     if (!direct) {
-      cpu = setInterval(logicUnit, 1000 / cpuSpeed.value);
+      cpu = setInterval(logicUnit, cpuSpeed.value > 1000 ? 1 : cpuSpeed.value < 1 ? 1000 : 1000 / cpuSpeed.value);
     }
 
     lines.every(function (line, index) {
