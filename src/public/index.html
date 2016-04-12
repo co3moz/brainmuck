@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brainmuck</title>
+    <script defer src="vendor/codemirror.js"></script>
+    <script defer src="vendor/gas.js"></script>
+    <script defer src="vendor/active-line.js"></script>
+    <script defer src="vendor/iterate.js"></script>
+    <link rel="stylesheet" href="css/codemirror.css"/>
+    <link rel="stylesheet" href="css/monokai.css"/>
+    <link rel="stylesheet" href="css/brainmuck.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+<body spellcheck="false">
+<table id="cpuTable"></table>
+<span id="logo">Brainmuck</span> cpu speed: <input type="number" value="100" id="cpuSpeed">
+<button>run</button>
+<button>stop</button>
+<button>direct</button>
+<br>
+<br>
+<div id="inputStreamText">input stream</div>
+<div contenteditable="true" id="inputStream"></div>
+<div id="outputStreamText">output stream</div>
+<div id="outputStream"> </div>
+<div id="codeDiv">
+    <textarea id="code">HELLO_WORLD: db "Hello World!", 0
+mov r0, $HELLO_WORLD
+call $WRITE</textarea>
+</div>
+<script defer src="js/brainmuck.js"></script>
+</body>
+</html>

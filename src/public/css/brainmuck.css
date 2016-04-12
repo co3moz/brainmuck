@@ -1,0 +1,73 @@
+html {
+    background-color: #5F5D5D;
+    color: white;
+    font-family: monospace;
+}
+
+#logo {
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0.5px 1px 0px #12E7FA, 1.5px 1px 1px #3796E8, 2.5px 1px 1px #187FBD, 3px 0 5px black;
+    font-size: 26pt;
+    font-family: Lato, sans-serif;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 12px;
+}
+
+#inputStreamText {
+    background-color: #be4031;
+    color: #822B21;
+    padding: 10px;
+}
+
+#inputStream {
+    background-color: #e85237;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    min-height: 20px;
+}
+
+#outputStreamText {
+    background-color: #b25c0b;
+    color: #7A3F09;
+    padding: 10px;
+}
+
+#outputStream {
+    background-color: #e87d0d;
+    color: white;
+    padding: 10px;
+    min-height: 20px;
+    white-space: pre-wrap;
+}
+
+#codeDiv {
+    background-color: #363636;
+    color: white;
+    padding: 10px;
+}
+
+#cpuTable {
+    float: right;
+    background-color: #363636;
+    padding: 5px;
+}
+
+button {
+    background-color: #363636;
+    border: 0;
+    color: #646363;
+    padding: 5px 15px;
+}
+
+button:hover {
+    color: white;
+}
+
+input {
+    background-color: #363636;
+    border: 0;
+    padding: 5px;
+    color: white;
+}
