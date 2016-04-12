@@ -2,6 +2,11 @@
 
 The simple assembly language script. Our goal is reach to 8051..
 
+Just a damn browser
+--------------
+![](doc/screenshot.png)
+Just needs a lovely browser. Nothing more.. If you just want to see this shit [click me](https://cdn.rawgit.com/co3moz/brainmuck/master/src/public/index.html)
+
 Registers
 ------------------
 
